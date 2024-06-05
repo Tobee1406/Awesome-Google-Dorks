@@ -111,6 +111,11 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 # Directories
 - `intitle:"Browse Directory"`
 - `intitle:index.of`
+- `intitle:"Index of" inurl:/parent-directory`
+- `intitle:"Index of" inurl:/admin`
+- `intitle:"Index of" inurl:/backup`
+- `intitle:"Index of" inurl:/config`
+- `intitle:"Index of" inurl:/logs`
 
 # Email
 - `filetype:txt @gmail.com OR @yahoo.com OR @hotmail.com OR @aol.com`
@@ -120,12 +125,25 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `site:drive.google.com confidential`
 
 # IoT Devices
-- `intitle:"Smart TV" inurl:/cgi-bin/login`
+- `intitle:"Amazon Echo" "setup"`
+- `intitle:"Baby Monitor" inurl:"/live"`
+- `intitle:"Doorbell Camera" inurl:"/setup"`
+- `intitle:"Google Home" "setup"`
 - `intitle:"Router Login" inurl:/login`
+- `intitle:"Smart Lighting Control Panel"`
+- `intitle:"Sonos - Google Chrome"`
+- `intitle:"Thermostat" inurl:"/status"`
+- `intitle:"Smart TV" inurl:/cgi-bin/login`
+- `intext:"SMART TV" inurl:password.txt`
+- `inurl:"description.xml" "Philips hue bridge"`
+- `inurl:"/smartlock" intitle:"Login"`
 
 # Login
 - `intitle:login`
+- `intitle:login inurl:/admin`
+- `intitle:login inurl:/login`
 - `inurl:login`
+- `inurl:"/admin/login.php"`
 
 # Movies
 - `inurl:mkv+[movie name]`
@@ -139,19 +157,9 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:”HP LaserJet” inurl:SSI/index.htm`
 - `intitle:"open network devices"`
 
-# Smart Devices
-- `intitle:"Amazon Echo" "setup"`
-- `intitle:"Baby Monitor" inurl:"/live"`
-- `intitle:"Doorbell Camera" inurl:"/setup"`
-- `intitle:"Google Home" "setup"`
-- `intitle:"Smart Lighting Control Panel"`
-- `intitle:"Sonos - Google Chrome"`
-- `intitle:"Thermostat" inurl:"/status"`
-- `intext:"SMART TV" inurl:password.txt`
-- `inurl:"description.xml" "Philips hue bridge"`
-- `inurl:"/smartlock" intitle:"Login"`
-
 # WordPress
+- `intext:”Powered by WordPress”`
+- `intitle:”Login — WordPress”`
 - `intitle:"powered by WordPress" version`
 - `inurl:wp-content/plugins/`
 - `inurl:/wp-content/plugins/revslider/`
