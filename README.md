@@ -16,6 +16,7 @@ A collection of Awesome Google Dorks.
 - [Email](#email)
 - [Google Drive](#google-drive)
 - [IoT Devices](#iot-devices)
+- [Login](#login)
 - [Movies](#movies)
 - [Network Devices](#network-devices)
 - [WordPress](#wordpress)
@@ -67,8 +68,9 @@ From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
 # Disclaimer
 USE AT YOUR OWN RISK! 
+Google Dorking can be used for Cybersecurity, Penetration, and Vulnerability testing. However, some things may lead to illegal activity or concern people's sensitive data.
 
-As some things may lead to illegal activity or are about peoples' sensitive data.
+To protect yourself use a Tor Browser and for even better protection use a VPN. 
 
 # Documents and Files
 - `filetype:pdf intitle:"Confidental"`
@@ -77,6 +79,8 @@ As some things may lead to illegal activity or are about peoples' sensitive data
 - `filetype:ppt intitle:"Confidental"`
 
 # Cameras and Webcams
+- `intitle:"D-Link" inurl:"/video.htm"`
+- `intitle:"Linksys Viewer - Login" -inurl:mainFrame`
 - `intitle:"Live View /-AXIS"`
 - `intitle:"netcam watcher"`
 - `intitle:"Network Camera NetworkCamera"`
@@ -97,11 +101,16 @@ As some things may lead to illegal activity or are about peoples' sensitive data
 - `inurl:"view/viewer_index.shtml"`
 - `inurl:"viewerframe?mode=motion"`
 - `inurl:"webcam.html"`
+- `intitle:webcamxp inurl:8080`
 
 # Control Panels
 - `intitle:"Admin Login"`
 - `intitle:"Control Panel" inurl:/admin`
 - `intitle:"Control Panel" inurl:/login`
+
+# Directories
+- `intitle:"Browse Directory"`
+- `intitle:index.of`
 
 # Email
 - `filetype:txt @gmail.com OR @yahoo.com OR @hotmail.com OR @aol.com`
@@ -114,16 +123,33 @@ As some things may lead to illegal activity or are about peoples' sensitive data
 - `intitle:"Smart TV" inurl:/cgi-bin/login`
 - `intitle:"Router Login" inurl:/login`
 
+# Login
+- `intitle:login`
+- `inurl:login`
+
 # Movies
 - `inurl:mkv+[movie name]`
 - `inurl:mp4+[movie name]`
 
 # Network Devices
+- `intext:"printer meter"`
 - `intitle:”Brother” intext:”View Configuration”`
 - `intitle:"Device name" inurl:home.htm`
 - `intitle:”Network Print Server” filetype:html`
 - `intitle:”HP LaserJet” inurl:SSI/index.htm`
 - `intitle:"open network devices"`
+
+# Smart Devices
+- `intitle:"Amazon Echo" "setup"`
+- `intitle:"Baby Monitor" inurl:"/live"`
+- `intitle:"Doorbell Camera" inurl:"/setup"`
+- `intitle:"Google Home" "setup"`
+- `intitle:"Smart Lighting Control Panel"`
+- `intitle:"Sonos - Google Chrome"`
+- `intitle:"Thermostat" inurl:"/status"`
+- `intext:"SMART TV" inurl:password.txt`
+- `inurl:"description.xml" "Philips hue bridge"`
+- `inurl:"/smartlock" intitle:"Login"`
 
 # WordPress
 - `intitle:"powered by WordPress" version`
