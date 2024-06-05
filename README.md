@@ -62,6 +62,8 @@ A collection of Awesome Google Dorks.
 | stock            | Search for information about a market stock                                                                              | stock:&lt;stock>                     | stock:dax                         |
 | weather          | Search for information about the weather of the given location                                                           | weather:&lt;location>                | weather:Miami                     |
 
+From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
+
 # Documents and Files
 - `filetype:pdf intitle:"Confidental"`
 - `filetype:doc intitle:"Confidental"`
