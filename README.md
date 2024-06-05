@@ -18,6 +18,7 @@ A collection of Awesome Google Dorks.
 - [IoT Devices](#iot-devices)
 - [Movies](#movies)
 - [Network Devices](#network-devices)
+- [WordPress](#wordpress)
 
 # Search Operators
 | Operator         | Description                                                                                                              | Syntax                               | Example                           |
@@ -64,6 +65,11 @@ A collection of Awesome Google Dorks.
 
 From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
+# Disclaimer
+USE AT YOUR OWN RISK! 
+
+As some things may lead to illegal activity or are about peoples' sensitive data.
+
 # Documents and Files
 - `filetype:pdf intitle:"Confidental"`
 - `filetype:doc intitle:"Confidental"`
@@ -72,16 +78,34 @@ From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
 # Cameras and Webcams
 - `intitle:"Live View /-AXIS"`
+- `intitle:"netcam watcher"`
 - `intitle:"Network Camera NetworkCamera"`
+- `intitle:"TP-LINK IP-Camera"`
+- `intitle:"webcamXP 5"`
+- `inurl:"axis-cgi/mjpg"`
+- `inurl:"control/userimage.html"`
+- `inurl:"/image/webcam.jpg"`
+- `inurl:"/live/cam.html"`
+- `inurl:"main.cgi?next_file=main_fs.htm"`
+- `inurl:"/mjpg/video.mjpg"`
+- `inurl:"MultiCameraFrame?Mode=Motion"`
+- `inurl:"/out.jpg"`
+- `inurl:"snapshot.cgi?user="`
+- `inurl:top.htm inurl:currenttime`
 - `inurl:"view/index.shtml"`
+- `inurl:"view/indexFrame.shtml"`
+- `inurl:"view/viewer_index.shtml"`
 - `inurl:"viewerframe?mode=motion"`
+- `inurl:"webcam.html"`
 
 # Control Panels
+- `intitle:"Admin Login"`
 - `intitle:"Control Panel" inurl:/admin`
 - `intitle:"Control Panel" inurl:/login`
 
 # Email
 - `filetype:txt @gmail.com OR @yahoo.com OR @hotmail.com OR @aol.com`
+- `filetype:xls inurl:"email.xls"`
 
 # Google Drive
 - `site:drive.google.com confidential`
@@ -102,4 +126,6 @@ From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 - `intitle:"open network devices"`
 
 # WordPress
+- `intitle:"powered by WordPress" version`
+- `inurl:wp-content/plugins/`
 - `inurl:/wp-content/plugins/revslider/`
