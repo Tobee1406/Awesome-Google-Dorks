@@ -2,10 +2,12 @@
 <div align="center">
 	<img width="500" height="350" src="https://github.com/sindresorhus/awesome/raw/main/media/logo.svg" alt="Awesome">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 A collection of Awesome Google Dorks.
 </div>
+
+![](https://img.shields.io/github/license/Tobee1406/Awesome-Google-Dorks) ![](https://badges.pufler.dev/visits/Tobee1406/Awesome-Google-Dorks) ![](https://img.shields.io/github/stars/Tobee1406/Awesome-Google-Dorks)
 
 ## Contents
 
