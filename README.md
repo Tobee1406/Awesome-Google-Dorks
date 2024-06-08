@@ -20,6 +20,7 @@ A collection of Awesome Google Dorks.
 - [Movies](#movies)
 - [Network Devices](#network-devices)
 - [WordPress](#wordpress)
+- [...More](#more)
 
 # Search Operators
 | Operator         | Description                                                                                                              | Syntax                               | Example                           |
@@ -85,6 +86,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:"netcam watcher"`
 - `intitle:"Network Camera NetworkCamera"`
 - `intitle:"TP-LINK IP-Camera"`
+- `intitle:"Webcam" inurl:WebCam.htm`
 - `intitle:"webcamXP 5"`
 - `inurl:"axis-cgi/mjpg"`
 - `inurl:"control/userimage.html"`
@@ -111,6 +113,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 # Directories
 - `intitle:"Browse Directory"`
 - `intitle:index.of`
+- `intitle:"index of" database.properties`
 - `intitle:"Index of" inurl:/parent-directory`
 - `intitle:"Index of" inurl:/admin`
 - `intitle:"Index of" inurl:/backup`
@@ -144,6 +147,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:login inurl:/login`
 - `inurl:login`
 - `inurl:"/admin/login.php"`
+- `site:preprod.* * inurl:login`
 
 # Movies
 - `inurl:mkv+[movie name]`
@@ -163,3 +167,6 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:"powered by WordPress" version`
 - `inurl:wp-content/plugins/`
 - `inurl:/wp-content/plugins/revslider/`
+
+# More
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
