@@ -11,20 +11,21 @@ A collection of Awesome Google Dorks.
 
 ## Contents
 
-- [Search Operators](#search-operators)
-- [Documents and Files](#documents-and-files)
-- [Cameras and Webcams](#cameras-and-webcams)
-- [Control Panels](#control-panels)
-- [Email](#email)
-- [Google Drive](#google-drive)
-- [IoT Devices](#iot-devices)
-- [Login](#login)
-- [Movies](#movies)
-- [Network Devices](#network-devices)
-- [WordPress](#wordpress)
+- 🔍 [Search Operators](#-search-operators)
+- 📄 [Documents and Files](#-documents-and-files)
+- 📸 [Cameras and Webcams](#-cameras-and-webcams)
+- 🎛️ [Control Panels](#control_knobs-control-panels)
+- 🗂️ [Directories](#card_index_dividers-directories)
+- 📧 [Email](#-email)
+- 🗃️ [Google Drive](#card_file_box-google-drive)
+- 🖨️ [IoT Devices](#printer-iot-devices)
+- 🔒 [Login](#-login)
+- 🎬 [Movies](#-movies)
+- 🌐 [Network Devices](#-network-devices)
+- ✍️ [WordPress](#writing_hand-wordpress)
 - [...More](#more)
 
-# Search Operators
+# 🔍 Search Operators
 | Operator         | Description                                                                                                              | Syntax                               | Example                           |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ | --------------------------------- |
 | ()               | Group multiple terms or operators. Allows advanced expressions                                                           | (&lt;term> or &lt;operator>)         | inurl:(html \| php)               |
@@ -69,19 +70,19 @@ A collection of Awesome Google Dorks.
 
 From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
-# Disclaimer
+# ❗Disclaimer
 USE AT YOUR OWN RISK! 
 Google Dorking can be used for Cybersecurity, Penetration, and Vulnerability testing. However, some things may lead to illegal activity or concern people's sensitive data.
 
 To protect yourself use a Tor Browser and for even better protection use a VPN. 
 
-# Documents and Files
+# 📄 Documents and Files
 - `filetype:pdf intitle:"Confidental"`
 - `filetype:doc intitle:"Confidental"`
 - `filetype:xls intitle:"Confidental"`
 - `filetype:ppt intitle:"Confidental"`
 
-# Cameras and Webcams
+# 📸 Cameras and Webcams
 - `intitle:"D-Link" inurl:"/video.htm"`
 - `intitle:"Linksys Viewer - Login" -inurl:mainFrame`
 - `intitle:"Live View /-AXIS"`
@@ -107,12 +108,12 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `inurl:"webcam.html"`
 - `intitle:webcamxp inurl:8080`
 
-# Control Panels
+# :control_knobs: Control Panels
 - `intitle:"Admin Login"`
 - `intitle:"Control Panel" inurl:/admin`
 - `intitle:"Control Panel" inurl:/login`
 
-# Directories
+# :card_index_dividers: Directories
 - `intitle:"Browse Directory"`
 - `intitle:index.of`
 - `intitle:"index of" database.properties`
@@ -122,14 +123,14 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:"Index of" inurl:/config`
 - `intitle:"Index of" inurl:/logs`
 
-# Email
+# 📧 Email
 - `filetype:txt @gmail.com OR @yahoo.com OR @hotmail.com OR @aol.com`
 - `filetype:xls inurl:"email.xls"`
 
-# Google Drive
+# :card_file_box: Google Drive
 - `site:drive.google.com confidential`
 
-# IoT Devices
+# :printer: IoT Devices
 - `intitle:"Amazon Echo" "setup"`
 - `intitle:"Baby Monitor" inurl:"/live"`
 - `intitle:"Doorbell Camera" inurl:"/setup"`
@@ -143,7 +144,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `inurl:"description.xml" "Philips hue bridge"`
 - `inurl:"/smartlock" intitle:"Login"`
 
-# Login
+# 🔒 Login
 - `intitle:login`
 - `intitle:login inurl:/admin`
 - `intitle:login inurl:/login`
@@ -151,11 +152,11 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `inurl:"/admin/login.php"`
 - `site:preprod.* * inurl:login`
 
-# Movies
+# 🎬 Movies
 - `inurl:mkv+[movie name]`
 - `inurl:mp4+[movie name]`
 
-# Network Devices
+# 🌐 Network Devices
 - `intext:"printer meter"`
 - `intitle:”Brother” intext:”View Configuration”`
 - `intitle:"Device name" inurl:home.htm`
@@ -163,7 +164,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:”HP LaserJet” inurl:SSI/index.htm`
 - `intitle:"open network devices"`
 
-# WordPress
+# :writing_hand: WordPress
 - `intext:”Powered by WordPress”`
 - `intitle:”Login — WordPress”`
 - `intitle:"powered by WordPress" version`
