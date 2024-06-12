@@ -70,7 +70,7 @@ A collection of Awesome Google Dorks.
 
 From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
-# ❗Disclaimer
+# ❗ Disclaimer
 USE AT YOUR OWN RISK! 
 Google Dorking can be used for Cybersecurity, Penetration, and Vulnerability testing. However, some things may lead to illegal activity or concern people's sensitive data.
 
