@@ -91,6 +91,7 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `intitle:"TP-LINK IP-Camera"`
 - `intitle:"Webcam" inurl:WebCam.htm`
 - `intitle:"webcamXP 5"`
+- `intitle:webcamxp inurl:8080`
 - `inurl:"axis-cgi/mjpg"`
 - `inurl:"control/userimage.html"`
 - `inurl:"/image/webcam.jpg"`
@@ -106,7 +107,6 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `inurl:"view/viewer_index.shtml"`
 - `inurl:"viewerframe?mode=motion"`
 - `inurl:"webcam.html"`
-- `intitle:webcamxp inurl:8080`
 
 # :control_knobs: Control Panels
 - `intitle:"Admin Login"`
