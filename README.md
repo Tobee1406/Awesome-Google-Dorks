@@ -174,4 +174,4 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 # ...More
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
 
-# [⬆️Back To Top](https://github.com/Tobee1406/Awesome-Google-Dorks/blob/main/README.md#awesome-google-dorks)
+# [⬆️Back To Top](https://github.com/Tobee1406/Awesome-Google-Dorks#awesome-google-dorks)
