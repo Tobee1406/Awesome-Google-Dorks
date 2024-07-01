@@ -72,23 +72,25 @@ A collection of Awesome Google Dorks.
 From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
 
 # 🔧 URL Modifiers
-Add at the parameter at the end of the SERP URL
+Add at the parameter at the end of the SERP (Search Engine Result Pages) URL.
 | Modifier                   | Description                          | Parameter          | Example                                              |
 | -------------------------- | ------------------------------------ | --------------- | ---------------------------------------------------- |
-| App Search                 | Activate app search filter           | &tbs=app_price:free <br/> &tbs=app_price:paid <br/> &tbs=app_os:1 (Android) <br/> &tbs=app_os:13 (iOS)   | Add at the parameter at the end of the SERP URL      |
-| Blog Search                | Activate blog search filter          | &tbs=blgt:b     | Add at the parameter at the end of the SERP URL      |
-| Bring Up Local Finder      | Get local results          | &tbm=lcl        | Add at the parameter at the end of the SERP URL      |
-| Country Search             | Search country domains               | &cr=country[CountryCode]    | &cr=countryAU (Australia)      |
-| Disable Filtering Of Results  | Gives unfiltered results    | &filter=0   | Add at the parameter at the end of the SERP URL      |
-| Disable Personalized Results  | Gives non personalized results    | &pws=0    | Add at the parameter at the end of the SERP URL      |
-| Forum Search               | Activate forum search filter         | &udm=18         | Add at the parameter at the end of the SERP URL      |
-| Image Search               | Activate image search filter         | &tbm=isch         | Add at the parameter at the end of the SERP URL      |
-| News Search                | Activate news search filter          | &tbm=nws <br/> &tbs=nrt:b (news from blogs) | Add at the parameter at the end of the SERP URL      |
-| No Country Redirect        | Takes you to .com instead of country url         | /ncr         | Add at the parameter at the end of the SERP URL      |
-| Patent Search              | Activate patent search filter         | &tbm=pts         | Add at the parameter at the end of the SERP URL      |
-| Results From Past Hour     | Displays the results from the past hour        | &tbs=qdr:s (second) <br/> &tbs=qdr:n (minute) <br/> &tbs=qdr:h (hour) <br/> &tbs=qdr:d (day) <br/> &tbs=qdr:w (week) <br/> &tbs=qdr:m (month) <br/> &tbs=qdr:y (year)      | Add at the parameter at the end of the SERP URL      |
-| Shopping Search              | Activate shopping search filter         | &tbm=shop         | Add at the parameter at the end of the SERP URL      |
-| Video Search               | Activate video search filter        | &tbm=vid         | Add at the parameter at the end of the SERP URL      |
+| App Search                 | Activate app search filter           | &tbs=app_price:free (free) <br/> &tbs=app_price:paid (paid) <br/> &tbs=app_os:1 (Android) <br/> &tbs=app_os:13 (iOS)   | https://www.google.com/search?q=star+wars&tbs=app_os:13      |
+| Blog Search                | Activate blog search filter          | &tbs=blgt:b     | https://www.google.com/search?q=star+wars&tbs=blgt:b      |
+| Bring Up Local Finder      | Get local results          | &tbm=lcl        | https://www.google.com/search?q=star+wars&tbm=lcl      |
+| Country Search             | Search country domains               | &cr=country[CountryCode]    | https://www.google.com/search?q=star+wars&cr=countryAU       |
+| Disable Filtering Of Results  | Gives unfiltered results    | &filter=0   | https://www.google.com/search?q=star+wars&filter=0      |
+| Disable Personalized Results  | Gives non personalized results    | &pws=0    | https://www.google.com/search?q=star+wars&pws=0      |
+| Forum Search               | Activate forum search filter         | &udm=18         | https://www.google.com/search?q=star+wars&udm=18      |
+| Image Search               | Activate image search filter         | &tbm=isch         | https://www.google.com/search?q=star+wars&tbm=isch      |
+| News Search                | Activate news search filter          | &tbm=nws <br/> &tbs=nrt:b (news from blogs) | https://www.google.com/search?q=star+wars&tbm=nws      |
+| No Country Redirect        | Takes you to .com instead of country url         | /ncr         | [MISSING]    |
+| Patent Search              | Activate patent search filter         | &tbm=pts         | https://www.google.com/search?q=star+wars&tbm=pts      |
+| Results From Past Hour     | Displays the results from the past hour        | &tbs=qdr:s (second) <br/> &tbs=qdr:n (minute) <br/> &tbs=qdr:h (hour) <br/> &tbs=qdr:d (day) <br/> &tbs=qdr:w (week) <br/> &tbs=qdr:m (month) <br/> &tbs=qdr:y (year)      | https://www.google.com/search?q=star+wars&tbs=qdr:h      |
+| Shopping Search              | Activate shopping search filter         | &tbm=shop         | https://www.google.com/search?q=star+wars&tbm=shop      |
+| Video Search               | Activate video search filter        | &tbm=vid         | https://www.google.com/search?q=star+wars&tbm=vid       |
+
+Inspired by [Supple](https://supple.com.au/tools/google-advance-search-operators/)
 
 # ❗ Disclaimer
 USE AT YOUR OWN RISK! 
