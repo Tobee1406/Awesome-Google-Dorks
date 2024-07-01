@@ -12,6 +12,7 @@ A collection of Awesome Google Dorks.
 ## Contents
 
 - 🔍 [Search Operators](#-search-operators)
+- 🔧 [URL Modifiers](#-url-modifiers)
 - 📄 [Documents and Files](#-documents-and-files)
 - 📸 [Cameras and Webcams](#-cameras-and-webcams)
 - 🎛️ [Control Panels](#control_knobs-control-panels)
@@ -69,6 +70,25 @@ A collection of Awesome Google Dorks.
 | weather          | Search for information about the weather of the given location                                                           | weather:&lt;location>                | weather:Miami                     |
 
 From [chr3st5an](https://github.com/chr3st5an/Google-Dorking.git)
+
+# 🔧 URL Modifiers
+Add at the parameter at the end of the SERP URL
+| Modifier                   | Description                          | Parameter          | Example                                              |
+| -------------------------- | ------------------------------------ | --------------- | ---------------------------------------------------- |
+| App Search                 | Activate app search filter           | &tbs=app_price:free <br/> &tbs=app_price:paid <br/> &tbs=app_os:1 (Android) <br/> &tbs=app_os:13 (iOS)   | Add at the parameter at the end of the SERP URL      |
+| Blog Search                | Activate blog search filter          | &tbs=blgt:b     | Add at the parameter at the end of the SERP URL      |
+| Bring Up Local Finder      | Get local results          | &tbm=lcl        | Add at the parameter at the end of the SERP URL      |
+| Country Search             | Search country domains               | &cr=country[CountryCode]    | &cr=countryAU (Australia)      |
+| Disable Filtering Of Results  | Gives unfiltered results    | &filter=0   | Add at the parameter at the end of the SERP URL      |
+| Disable Personalized Results  | Gives non personalized results    | &pws=0    | Add at the parameter at the end of the SERP URL      |
+| Forum Search               | Activate forum search filter         | &udm=18         | Add at the parameter at the end of the SERP URL      |
+| Image Search               | Activate image search filter         | &tbm=isch         | Add at the parameter at the end of the SERP URL      |
+| News Search                | Activate news search filter          | &tbm=nws <br/> &tbs=nrt:b (news from blogs) | Add at the parameter at the end of the SERP URL      |
+| No Country Redirect        | Takes you to .com instead of country url         | /ncr         | Add at the parameter at the end of the SERP URL      |
+| Patent Search              | Activate patent search filter         | &tbm=pts         | Add at the parameter at the end of the SERP URL      |
+| Results From Past Hour     | Displays the results from the past hour        | &tbs=qdr:s (second) <br/> &tbs=qdr:n (minute) <br/> &tbs=qdr:h (hour) <br/> &tbs=qdr:d (day) <br/> &tbs=qdr:w (week) <br/> &tbs=qdr:m (month) <br/> &tbs=qdr:y (year)      | Add at the parameter at the end of the SERP URL      |
+| Shopping Search              | Activate shopping search filter         | &tbm=shop         | Add at the parameter at the end of the SERP URL      |
+| Video Search               | Activate video search filter        | &tbm=vid         | Add at the parameter at the end of the SERP URL      |
 
 # ❗ Disclaimer
 USE AT YOUR OWN RISK! 
@@ -153,6 +173,8 @@ To protect yourself use a Tor Browser and for even better protection use a VPN.
 - `site:preprod.* * inurl:login`
 
 # 🎬 Movies
+- `intitle:"index.of" (mp4|avi|mkv) "[movie name]" -html -htm -php -asp -jsp`
+- `[movie name] site:drive.google.com intitle:wmv|mpg|avi|mp4|mkv|mov`
 - `inurl:mkv+[movie name]`
 - `inurl:mp4+[movie name]`
 
