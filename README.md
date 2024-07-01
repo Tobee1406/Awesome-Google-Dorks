@@ -84,7 +84,7 @@ Add at the parameter at the end of the SERP (Search Engine Result Pages) URL.
 | Forum Search               | Activate forum search filter         | &udm=18         | https://www.google.com/search?q=star+wars&udm=18      |
 | Image Search               | Activate image search filter         | &tbm=isch         | https://www.google.com/search?q=star+wars&tbm=isch      |
 | News Search                | Activate news search filter          | &tbm=nws <br/> &tbs=nrt:b (news from blogs) | https://www.google.com/search?q=star+wars&tbm=nws      |
-| No Country Redirect        | Takes you to .com instead of country url         | /ncr         | [MISSING]    |
+| No Country Redirect        | Takes you to .com instead of country url         | /ncr         | https://www.google.com/ncr   |
 | Patent Search              | Activate patent search filter         | &tbm=pts         | https://www.google.com/search?q=star+wars&tbm=pts      |
 | Results From Past Hour     | Displays the results from the past hour        | &tbs=qdr:s (second) <br/> &tbs=qdr:n (minute) <br/> &tbs=qdr:h (hour) <br/> &tbs=qdr:d (day) <br/> &tbs=qdr:w (week) <br/> &tbs=qdr:m (month) <br/> &tbs=qdr:y (year)      | https://www.google.com/search?q=star+wars&tbs=qdr:h      |
 | Shopping Search              | Activate shopping search filter         | &tbm=shop         | https://www.google.com/search?q=star+wars&tbm=shop      |
